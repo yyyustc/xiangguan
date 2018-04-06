@@ -13,7 +13,7 @@ def x1():
     
     # load dataset
     
-    series = Series.from_csv('monthly-car-sales-in-quebec-1960.csv', header=0)
+    series = Series.from_csv('car-sales.csv', header=0)
     
     # display first few rows
     
